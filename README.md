@@ -1,17 +1,24 @@
 # about-me
 
 ## Repository Links
-* [https://github.com/StephenBurke/about-me](https://github.com/StephenBurke/about-me)
-* [https://stephenburke.github.io/about-me/](https://stephenburke.github.io/about-me/)
+* Source Repository: [https://github.com/StephenBurke/about-me](https://github.com/StephenBurke/about-me)
+* Hosted Page: [https://stephenburke.github.io/about-me/](https://stephenburke.github.io/about-me/)
 
 
 ## About
-Think of a reason for a website, then put that reason here. Right where this text is. 
+Think of a reason for a website, then put that reason here. Right where this text is.
+
+## Recommended Tools
+Using text, lists, and links, tell your user what tools and languages are required for them to publish a repo with GitHub pages
+
 
 ## Recommended Resources 
-Share links to at least 3 resources you like for web development 
+Share links to at least 3 resources you like for web development e.g. https://github.com/kamranahmedse/developer-roadmap
+
 
 ## Contributors
 Stephen Burke
 - Data Science Major, Emphasis in Computer Science
 - Math Major, Emphasis in Data Science
+- display a favorite image (either upload one to your repo or link to one hosted on the web already
+
