@@ -26,6 +26,5 @@ Share links to at least 3 resources you like for web development e.g. https://gi
 ## Contributors
 Stephen Burke
 - Data Science Major, Emphasis in Computer Science
-- Math Major, Emphasis in Data Science
-- display a favorite image (either upload one to your repo or link to one hosted on the web already
-
+- Math Major, Emphasis in Data Science  
+![Deep Space](https://ibb.co/3kJsZNk)
