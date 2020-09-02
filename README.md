@@ -6,11 +6,14 @@
 
 
 ## About
-Think of a reason for a website, then put that reason here. Right where this text is.
+Here's a real quick website made to show front end development
 
 ## Recommended Tools
 Using text, lists, and links, tell your user what tools and languages are required for them to publish a repo with GitHub pages
-
+- Create a [Github account](https://github.com/) if you haven't already
+- Create a repository on GitHub
+- As far as languages, really only need a markup lanuage such as, markdown or html. CSS and Javascript will help you add color and interactivness respectivly
+- Finally to publish your repository to GitHub Pages through the settings tab of your repository
 
 ## Recommended Resources 
 Share links to at least 3 resources you like for web development e.g. https://github.com/kamranahmedse/developer-roadmap
