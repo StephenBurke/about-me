@@ -27,4 +27,4 @@ Share links to at least 3 resources you like for web development e.g. https://gi
 Stephen Burke
 - Data Science Major, Emphasis in Computer Science
 - Math Major, Emphasis in Data Science  
-![Strokes A New Abnormal](about-me/images/basquiatMoney.png)
+![Strokes A New Abnormal](images/basquiatMoney.jpg)
