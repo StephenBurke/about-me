@@ -14,6 +14,10 @@ Using text, lists, and links, tell your user what tools and languages are requir
 
 ## Recommended Resources 
 Share links to at least 3 resources you like for web development e.g. https://github.com/kamranahmedse/developer-roadmap
+- [html 5 boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate)
+- [Khan Academy](https://www.khanacademy.org/computing)
+- [Firefox Devtools Playground](https://mozilladevelopers.github.io/playground/)
+
 
 
 ## Contributors
