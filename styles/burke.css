@@ -1,4 +1,11 @@
-* {
-  padding: 0;
-  margin: 0;
+#profile-picture {
+  border-radius: 50%;
+}
+
+article {
+  background-color: silver;
+}
+
+aside {
+  background-color: aquamarine;
 }
