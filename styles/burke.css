@@ -1,5 +1,7 @@
 #profile-picture {
   border-radius: 50%;
+  max-width: 50%;
+  max-height: 10%;
 }
 
 article {
