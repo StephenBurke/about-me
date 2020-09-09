@@ -1,133 +1,122 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-
-<html class="no-js">
-  <!--<![endif]-->
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Stephen's Website</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="styles/burke.css" />
+    <!-- https://mdbootstrap.com/docs/standard/getting-started/installation/ -->
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <!-- Add defer for improved performance -->
 
     <!-- Font Awesome -->
     <link
+      rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      rel="stylesheet"
     />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- MDB -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.css"
-      rel="stylesheet"
-    />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index2.html">Home</a>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10">
-          <h1>about-me</h1>
-          <hr />
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <h2>Repository Links</h2>
-
-          <ul>
-            <li>
-              Source Repository:
-              <a href="https://github.com/StephenBurke/about-me"
-                >https://github.com/StephenBurke/about-me</a
-              >
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left links -->
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li>
-              Hosted Page:
-              <a href="https://stephenburke.github.io/about-me/"
-                >https://stephenburke.github.io/about-me/</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
             </li>
-          </ul>
-
-          <h2>About</h2>
-          <p>Here's my first attempt at a website.</p>
-
-          <h2>Recommended Tools</h2>
-          <article>
-            <p>
-              Using text, lists, and links, tell your user what tools and
-              languages are required for them to publish a repo with GitHub
-              pages
-            </p>
-            <ol>
-              <li>Create a <a href="https://github/com">GitHub account</a></li>
-              <li>Create a repository on GitHub</li>
-              <li>
-                As far as languages, really only need a markup lanuage such as,
-                markdown or html. CSS and Javascript will help you add color and
-                interactivness respectivly
-              </li>
-              <li>
-                Finally to publish your repository to GitHub Pages, navigate
-                through the settings tab of your repository and follow the
-                GitHub Pages section
-              </li>
-            </ol>
-          </article>
-          <aside>
-            This will be my aside
-            <h2>links</h2>
-            <ul>
-              <li>One</li>
-              <li>Two</li>
-            </ul>
-          </aside>
-
-          <h2>Recommended Resources</h2>
-
-          <ul>
-            <li>
-              <a href="https://www.youtube.com/">youtube</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
             </li>
-            <li>
-              <a href="https://www.khanacademy.org/computing">Khan Academy</a>
-            </li>
-            <li>
-              <a href="https://mozilladevelopers.github.io/playground/"
-                >Firefox Devtools Playground</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
             </li>
           </ul>
-          <hr />
-          <h2>Contributors</h2>
+          <!-- Left links -->
 
-          <ul>
-            <li>Stephen Burke</li>
-            <li>Majors:</li>
-            <ul>
-              <li>Data Science, emphasis in computer science</li>
-              <li>Mathematics, emphasis in data science</li>
-            </ul>
-          </ul>
+          <!-- Search form -->
+          <form class="d-flex input-group w-auto">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Type query"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-primary"
+              type="button"
+              data-ripple-color="dark"
+            >
+              Search
+            </button>
+          </form>
         </div>
-        <div class="col-md-2">
-          <img src="images/basquiatMoney.jpg" alt="Basquiat Money" />
-        </div>
+        <!-- Collapsible wrapper -->
       </div>
-    </div>
+      <!-- Container wrapper -->
+    </nav>
 
-    <script src="" async defer></script>
+    <header class="header text-center">
+      <h1>Stephen Burke</h1>
+      This is the header
+      <img
+        id="profile-picture"
+        src="images/basquiatMoney.jpg"
+        alt="Basquiat Money"
+      />
+    </header>
+
+    <article>
+      <section>
+        <h2>Current</h2>
+        Hello I'm Stephen Burke, and I'm in the 02 section with Dr. Case. I'm a
+        senior graduating in the spring. I've got a data science major as well
+        as a math major. I'm on my fifth year at northwest, and I'm ready to be
+        done with school come spring.
+      </section>
+      <section>
+        <h2>Background</h2>
+        I'm from Kansas City, Missouri. I like to bike, and have biked across
+        Iowa.
+      </section>
+      <section>
+        <h2>Future</h2>
+        I'm hoping to look for some job in data analysis focusing on big data
+        but I'll take what I can get.
+      </section>
+    </article>
+    <aside>
+      I visited Colorado twice this summer and am actively trying to get a job
+      out there when I graduate. Here is my linkedIn
+      https://www.linkedin.com/in/stephen-burke-9b4591149/ (Links to an external
+      site.) and my github https://github.com/StephenBurke
+    </aside>
+    <footer></footer>
   </body>
 </html>
