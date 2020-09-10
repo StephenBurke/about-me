@@ -17,3 +17,13 @@ article {
 aside {
   background-color: aquamarine;
 }
+
+.regions {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+.steps {
+  background-color: orange;
+  color: rgb(17, 152, 206);
+}

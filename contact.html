@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="styles/burke.css" />
     <!-- Font Awesome -->
     <link
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -28,10 +29,31 @@
         <a class="navbar-brand" href="index.html">Home</a>
         <a class="navbar-brand" href="game.html">Game</a>
         <a class="navbar-brand" href="contact.html">Contact</a>
+        <img
+          id="profile-picture"
+          src="images/greenSelfie.JPG"
+          alt="Profile picture"
+          class="rounded-circle"
+          data-holder-rendered="true"
+        />
 
         <!-- Collapsible wrapper -->
       </div>
       <!-- Container wrapper -->
     </nav>
+    <form>
+      <input type="text" id="firstName" name="firstName" />
+      <label for="firstName">First Name</label>
+
+      <br />
+      <input type="text" id="lastName" name="lastName" />
+      <label for="lastName">Last Name</label>
+
+      <br />
+      <input type="text" id="email" name="email" />
+      <label for="email">Email</label>
+      <br />
+      <input type="submit" value="Sumbit" class="button" />
+    </form>
   </body>
 </html>
