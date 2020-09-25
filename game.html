@@ -40,20 +40,34 @@
       </div>
       <!-- Container wrapper -->
     </nav>
-    <form>
-      <input type="text" id="firstName" name="mother" />
-      <label for="firstName">Mother's maiden name</label>
+    <main class="container mt-0 flex-fill">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <fieldset class="mt-2">
+            <input type="text" id="firstName" name="mother" />
+            <label for="firstName">Mother's maiden name</label>
+          </fieldset>
 
-      <br />
-      <input type="text" id="lastName" name="pet" />
-      <label for="lastName">Name of first pet</label>
+          <fieldset class="mt-2">
+            <input type="text" id="lastName" name="pet" />
+            <label for="lastName">Name of first pet</label>
+          </fieldset>
 
-      <br />
-      <input type="text" id="email" name="car" />
-      <label for="email">First car you owned</label>
-      <br />
+          <fieldset class="mt-2">
+            <input type="text" id="email" name="car" />
+            <label for="email">First car you owned</label>
+          </fieldset>
+          <button id="multiply" class="btn btn-primary mt-2">Multiply</button>
+          
+        </div>
+      <div class="col-md-2 mb-4">
+        <h2>Try these</h2>
+        <button id="multiply" class="btn btn-primary">Multiply</button>
+      </div>
+      </div>
+    </main>
 
-      <input type="submit" value="Sumbit" class="button" />
+      
     </form>
     <!-- MDB -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.js"></script>
