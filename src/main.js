@@ -13,7 +13,7 @@ const validate = async (event) => {
   }
 };
 
-const updateWithAdd = async (event) => {
+const updateWithMultiply = async (event) => {
   try {
     document.querySelector("#result").innerHTML = "";
     if (
@@ -21,12 +21,15 @@ const updateWithAdd = async (event) => {
       document.querySelector("#width").checkValidity() &&
       document.querySelector("#height").checkValidity()
     ) {
-      const regex = /[0-9]/g;
-      const s = document.querySelector("#guest").value.replace(regex, "");
-      const i = parseInt(document.querySelector("#firstNumber").value);
-      const j = parseInt(document.querySelector("#secondNumber").value);
-      const j = parseInt(document.querySelector("#secondNumber").value);
-      const ans = `${s}, your sum is ${add(i, j)}.`;
+      const regex = /[^0-9]/g;
+      const a = document.querySelector("#length").value.replace(regex, "1");
+      const b = document.querySelector("#width").value.replace(regex, "1");
+      const c = document.querySelector("#height").value.replace(regex, "1");
+
+      const i = parseInt(document.querySelector("#length").value);
+      const j = parseInt(document.querySelector("#width").value);
+      const k = parseInt(document.querySelector("#height").value);
+      const ans = `$Your volume is ${multiply(i, j, k)}.`;
       document.querySelector("#result").innerHTML = ans;
     }
   } catch (error) {
@@ -47,7 +50,7 @@ document.addEventListener("focusout", (event) => {
 });
 
 document.addEventListener("click", (event) => {
-  if (event.target && event.target.id === "addButton") {
-    updateWithAdd(event);
+  if (event.target && event.target.id === "multiplyBtn") {
+    updateWithMultiply(event);
   }
 });
