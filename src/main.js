@@ -1,3 +1,5 @@
+// main skeleton logic referenced from https://github.com/profcase/js-gui-ajax
+
 const multiply = (x, y, z) => {
   return x * y * z;
 };
