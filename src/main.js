@@ -3,7 +3,7 @@
 const multiply = (x, y, z) => {
   return x * y * z;
 };
-/*
+
 const validate = async (event) => {
   console.log(`triggered validate on ${event.target.id}`);
   const isValid = event.target.checkValidity();
@@ -14,7 +14,7 @@ const validate = async (event) => {
     event.target.focus();
   }
 };
-*/
+
 const updateWithMultiply = async (event) => {
   try {
     //document.querySelector("#result").innerHTML = "";
@@ -33,10 +33,10 @@ const updateWithMultiply = async (event) => {
       const k = parseInt(document.querySelector("#height").value);
       const ans = `Your volume is ${multiply(i, j, k)}.`;
       document.querySelector("#result").innerHTML = ans;
-      return ans;
     }
   } catch (error) {
-    console.error(error);
+    const ans = `please enter a number`;
+    document.querySelector("#result").innerHTML = ans;
   }
 };
 
