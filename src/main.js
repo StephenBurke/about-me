@@ -32,7 +32,10 @@ const updateWithMultiply = async (event) => {
       const j = parseInt(document.querySelector("#width").value);
       const k = parseInt(document.querySelector("#height").value);
       const ans = `Your volume is ${multiply(i, j, k)} units cubed.`;
-      document.querySelector("#result").innerHTML = ans;
+      window.localStorage.setItem("answer", ans);
+      document.querySelector("#result").innerHTML = window.localStorage.getItem(
+        "answer"
+      );
     }
   } catch (error) {
     const ans = `please enter a number`;
