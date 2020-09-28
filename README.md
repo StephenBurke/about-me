@@ -28,3 +28,6 @@ Share links to at least 3 resources you like for web development e.g. https://gi
 - Data Science Major, Emphasis in Computer Science
 - Math Major, Emphasis in Data Science  
 ![Strokes A New Abnormal](images/basquiatMoney.jpg)
+
+## References
+- https://github.com/profcase/js-gui-ajax for formatting and js logic
